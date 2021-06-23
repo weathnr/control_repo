@@ -5,3 +5,6 @@ node default {
     owner   => 'root',
   }
 }
+node 'master01.nrw.vm' {
+  include role::master_server
+}
